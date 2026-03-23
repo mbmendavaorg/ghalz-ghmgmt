@@ -60,12 +60,6 @@ var alzPolicyAssignmentsJson = [
   loadJsonContent('../../lib/alz/platform/Enforce-GR-AppServices0.alz_policy_assignment.json')
   loadJsonContent('../../lib/alz/platform/Enforce-GR-Automation0.alz_policy_assignment.json')
   loadJsonContent('../../lib/alz/platform/Enforce-GR-BotService0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-CogServ0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-Compute0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-ContApps0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-ContInst0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-ContReg0.alz_policy_assignment.json')
-  loadJsonContent('../../lib/alz/platform/Enforce-GR-CosmosDb0.alz_policy_assignment.json')
   loadJsonContent('../../lib/alz/platform/Enforce-GR-DataExpl0.alz_policy_assignment.json')
   loadJsonContent('../../lib/alz/platform/Enforce-GR-DataFactory0.alz_policy_assignment.json')
   loadJsonContent('../../lib/alz/platform/Enforce-GR-EventGrid0.alz_policy_assignment.json')
@@ -169,12 +163,6 @@ var alzPolicyAssignmentRoleDefinitions = {
   'Enforce-GR-AppServices0': [builtInRoleDefinitionIds.contributor]
   'Enforce-GR-Automation0': [builtInRoleDefinitionIds.contributor]
   'Enforce-GR-BotService0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-CogServ0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-Compute0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-ContApps0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-ContInst0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-ContReg0': [builtInRoleDefinitionIds.contributor]
-  'Enforce-GR-CosmosDb0': [builtInRoleDefinitionIds.contributor]
   'Enforce-GR-DataExpl0': [builtInRoleDefinitionIds.contributor]
   'Enforce-GR-DataFactory0': [builtInRoleDefinitionIds.contributor]
   'Enforce-GR-EventGrid0': [builtInRoleDefinitionIds.contributor]
