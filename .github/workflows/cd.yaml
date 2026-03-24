@@ -14,6 +14,10 @@ on:
         description: 'Run Steps: Governance - Intermediate Root'
         type: boolean
         default: true
+      governance-legacy:
+        description: 'Run Steps: Governance - Legacy'
+        type: boolean
+        default: true
       governance-landingzones:
         description: 'Run Steps: Governance - Landing Zones'
         type: boolean
