@@ -8,7 +8,7 @@
   "NETWORK_TYPE": "vwanConnectivity",
   "LOCATION": "uksouth",
   "LOCATION_PRIMARY": "uksouth",
-  "MANAGEMENT_GROUP_ID": "myorg",
+  "MANAGEMENT_GROUP_ID": "eb28216e-e8ac-4aa9-b552-7d8c31333102",
   "LOCATION_SECONDARY": "ukwest",
   "SUBSCRIPTION_ID_SECURITY": "161c3611-b71c-4cf3-ae91-070ed3b9f8db"
 }
