@@ -65,6 +65,7 @@ jobs:
     with:
       skip_what_if: ${{ github.event_name != 'workflow_dispatch' && false || inputs.skip_what_if == true }}
       governance-int-root: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-int-root == true }}
+      governance-legacy: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-legacy == true }}
       governance-landingzones: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-landingzones == true }}
       governance-landingzones-corp: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-landingzones-children == true }}
       governance-landingzones-online: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-landingzones-children == true }}
@@ -77,6 +78,7 @@ jobs:
       governance-decommissioned: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-decommissioned == true }}
       governance-platform-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
       governance-platform-connectivity-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
+      governance-legacy-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
       governance-landingzones-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
       core-logging: ${{ github.event_name != 'workflow_dispatch' && true || inputs.core == true }}
       networking-virtualwan: ${{ github.event_name != 'workflow_dispatch' && true || inputs.networking == true }}
