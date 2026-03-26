@@ -10,8 +10,8 @@ param parEnableTelemetry = true
 param legacyConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-legacy'
-  managementGroupParentId: 'ww-alz'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupParentId: 'wwir'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Legacy'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

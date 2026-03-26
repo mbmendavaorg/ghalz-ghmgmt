@@ -11,7 +11,7 @@ param platformSecurityConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-security'
   managementGroupParentId: 'ww-platform'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Security'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

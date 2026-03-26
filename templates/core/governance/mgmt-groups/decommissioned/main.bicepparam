@@ -10,8 +10,8 @@ param parEnableTelemetry = true
 param decommissionedConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-decommissioned'
-  managementGroupParentId: 'ww-alz'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupParentId: 'wwir'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Decommissioned'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

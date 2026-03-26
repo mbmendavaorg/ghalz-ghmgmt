@@ -11,7 +11,7 @@ param platformConnectivityConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-connectivity'
   managementGroupParentId: 'ww-platform'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Connectivity'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

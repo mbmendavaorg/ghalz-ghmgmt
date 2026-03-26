@@ -9,9 +9,9 @@ param parEnableTelemetry = true
 
 param intRootConfig = {
   createOrUpdateManagementGroup: true
-  managementGroupName: 'ww-alz'
+  managementGroupName: 'wwir'
   managementGroupParentId: 'eb28216e-e8ac-4aa9-b552-7d8c31333102'
-  managementGroupDisplayName: 'wwl-Azure Landing Zones'
+  managementGroupDisplayName: 'WW Intermediate Root ALZ'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []
   customerRbacRoleDefs: []
