@@ -11,7 +11,7 @@ param landingZonesCorpConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-corp'
   managementGroupParentId: 'ww-landingzones'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Corp'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

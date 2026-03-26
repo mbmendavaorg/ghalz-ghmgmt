@@ -11,7 +11,7 @@ param platformIdentityConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'ww-identity'
   managementGroupParentId: 'ww-platform'
-  managementGroupIntermediateRootName: 'ww-alz'
+  managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Identity'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []
