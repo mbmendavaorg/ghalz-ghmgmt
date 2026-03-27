@@ -20,7 +20,7 @@ param decommissionedConfig = {
   customerPolicyDefs: []
   customerPolicySetDefs: []
   customerPolicyAssignments: []
-  subscriptionsToPlaceInManagementGroup: []
+  subscriptionsToPlaceInManagementGroup: ['b5eb03f2-3980-47a6-a77d-778f28a4c9a5']
   waitForConsistencyCounterBeforeCustomPolicyDefinitions: 10
   waitForConsistencyCounterBeforeCustomPolicySetDefinitions: 10
   waitForConsistencyCounterBeforeCustomRoleDefinitions: 10
