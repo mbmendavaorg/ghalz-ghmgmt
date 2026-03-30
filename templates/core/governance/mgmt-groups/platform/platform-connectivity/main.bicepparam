@@ -14,7 +14,7 @@ param platformConnectivityConfig = {
   managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Connectivity'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: ['Enable-DDoS-VNET']
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []

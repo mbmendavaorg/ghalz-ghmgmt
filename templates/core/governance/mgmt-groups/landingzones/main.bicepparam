@@ -14,7 +14,7 @@ param landingZonesConfig = {
   managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Landing Zones'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: ['Enable-DDoS-VNET']
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []

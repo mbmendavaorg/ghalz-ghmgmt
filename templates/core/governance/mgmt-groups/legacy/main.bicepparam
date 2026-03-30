@@ -13,7 +13,7 @@ param legacyConfig = {
   managementGroupParentId: 'wwir'
   managementGroupIntermediateRootName: 'wwir'
   managementGroupDisplayName: 'wwl-Legacy'
-  managementGroupDoNotEnforcePolicyAssignments: []
+  managementGroupDoNotEnforcePolicyAssignments: ['Enforce-GR-KeyVault', 'Enforce-GR-VirtualDesk0', 'Enforce-GR-AppServices0', 'Deploy-vmArc-ChangeTrack', 'Deploy-VM-Backup']
   managementGroupExcludedPolicyAssignments: []
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
